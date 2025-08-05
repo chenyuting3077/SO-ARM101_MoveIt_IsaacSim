@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop
+CMAKE_SOURCE_DIR = /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop
+CMAKE_BINARY_DIR = /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

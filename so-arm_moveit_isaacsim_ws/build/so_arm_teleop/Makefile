@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop
+CMAKE_SOURCE_DIR = /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop
+CMAKE_BINARY_DIR = /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/CMakeFiles /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/CMakeFiles /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -15,4 +15,14 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(PROGRAMS
+  scripts/keyboard_twist_teleop.py
+  scripts/joint_state_republisher.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY config launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()

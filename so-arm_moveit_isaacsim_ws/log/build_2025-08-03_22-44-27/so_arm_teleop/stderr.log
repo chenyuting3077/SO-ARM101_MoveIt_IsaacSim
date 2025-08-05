@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:109 (file):
-  file INSTALL cannot find
-  "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/.setup_assistant":
-  No such file or directory.
-
-[0m

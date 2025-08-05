@@ -1,8 +1,0 @@
-source;share/gripper_joint_state/hook/cmake_prefix_path.ps1
-source;share/gripper_joint_state/hook/cmake_prefix_path.dsv
-source;share/gripper_joint_state/hook/cmake_prefix_path.sh
-source;share/gripper_joint_state/local_setup.bash
-source;share/gripper_joint_state/local_setup.dsv
-source;share/gripper_joint_state/local_setup.ps1
-source;share/gripper_joint_state/local_setup.sh
-source;share/gripper_joint_state/local_setup.zsh

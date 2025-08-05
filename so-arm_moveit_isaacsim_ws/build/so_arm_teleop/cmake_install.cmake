@@ -1,8 +1,8 @@
-# Install script for directory: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop
+# Install script for directory: /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop")
+  set(CMAKE_INSTALL_PREFIX "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/install/so_arm_teleop")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,19 +43,33 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/so_arm_teleop" TYPE PROGRAM FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/scripts/keyboard_joint_selector.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/so_arm_teleop" TYPE PROGRAM FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/scripts/keyboard_joint_selector.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE DIRECTORY FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE DIRECTORY FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/so_arm_teleop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/so_arm_teleop" TYPE PROGRAM FILES
+    "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/scripts/keyboard_twist_teleop.py"
+    "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/scripts/joint_state_republisher.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/so_arm_teleop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE DIRECTORY FILES
+    "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/config"
+    "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/launch"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/so_arm_teleop")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/so_arm_teleop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop/environment" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop/environment" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,42 +85,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop/environment" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop/environment" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_index/share/ament_index/resource_index/packages/so_arm_teleop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_index/share/ament_index/resource_index/packages/so_arm_teleop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop/cmake" TYPE FILE FILES
-    "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_core/so_arm_teleopConfig.cmake"
-    "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_core/so_arm_teleopConfig-version.cmake"
+    "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_core/so_arm_teleopConfig.cmake"
+    "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/ament_cmake_core/so_arm_teleopConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so_arm_teleop" TYPE FILE FILES "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_teleop/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +131,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_teleop/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

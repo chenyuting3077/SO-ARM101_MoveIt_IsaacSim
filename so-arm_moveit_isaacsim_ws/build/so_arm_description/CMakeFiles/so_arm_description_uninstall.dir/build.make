@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_description
+CMAKE_SOURCE_DIR = /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_description
+CMAKE_BINARY_DIR = /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_description
 
 # Utility rule file for so_arm_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/so_arm_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/so_arm_description_uninstall.dir/progress.make
 
 CMakeFiles/so_arm_description_uninstall:
-	/usr/bin/cmake -P /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 so_arm_description_uninstall: CMakeFiles/so_arm_description_uninstall
 so_arm_description_uninstall: CMakeFiles/so_arm_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/so_arm_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/so_arm_description_uninstall.dir/clean
 
 CMakeFiles/so_arm_description_uninstall.dir/depend:
-	cd /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_description /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/src/so_arm_description /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_description /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_description /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/build/so_arm_description/CMakeFiles/so_arm_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_description /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/src/so_arm_description /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_description /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_description /home/allen/lerobot_yu/SO-ARM101_MoveIt_IsaacSim/so-arm_moveit_isaacsim_ws/build/so_arm_description/CMakeFiles/so_arm_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/so_arm_description_uninstall.dir/depend
 
