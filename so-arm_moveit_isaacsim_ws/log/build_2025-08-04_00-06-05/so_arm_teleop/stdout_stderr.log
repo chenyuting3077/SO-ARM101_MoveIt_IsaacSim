@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/lib/so_arm_teleop/keyboard_joint_selector.py
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/launch
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/ament_index/resource_index/package_run_dependencies/so_arm_teleop
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/ament_index/resource_index/parent_prefix_path/so_arm_teleop
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/environment/ament_prefix_path.sh
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/environment/path.sh
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/environment/path.dsv
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/local_setup.bash
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/local_setup.sh
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/local_setup.zsh
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/local_setup.dsv
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/package.dsv
+-- Up-to-date: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/ament_index/resource_index/packages/so_arm_teleop
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/cmake/so_arm_teleopConfig.cmake
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/cmake/so_arm_teleopConfig-version.cmake
+-- Installing: /home/allen/lerobot_yu/so-arm_moveit_isaacsim_ws/install/so_arm_teleop/share/so_arm_teleop/package.xml

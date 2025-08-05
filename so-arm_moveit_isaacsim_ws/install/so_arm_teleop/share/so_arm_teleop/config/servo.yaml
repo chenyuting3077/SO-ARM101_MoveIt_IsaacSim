@@ -1,0 +1,12 @@
+moveit_servo:
+  ros__parameters:
+    planning_frame: base_link
+    ee_frame_name: tool0
+    command_in_type: geometry_msgs/TwistStamped
+    publish_period: 0.01
+    scale:
+      linear: 0.1
+      rotational: 0.1
+    collision_check: false
+    joint_topic: /joint_states
+    status_topic: /servo_status

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>so_arm_teleop</name>
+  <version>0.1.0</version>
+  <description>Keyboard teleop for SO-ARM</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
