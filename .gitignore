@@ -1,3 +1,4 @@
 so-arm_moveit_isaacsim_ws/build/*
 so-arm_moveit_isaacsim_ws/log/*
 so-arm_moveit_isaacsim_ws/install/*
+.vscode
