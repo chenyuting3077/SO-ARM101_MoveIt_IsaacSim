@@ -5,9 +5,8 @@
 * Install & Setup Isaac Sim ROS2 \[[Link](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_ros.html)\]
 * Install WSL2 (If you use Windows) \[[Link](https://learn.microsoft.com/zh-tw/windows/wsl/install)\]
 * Linux Ubuntu 22.04. ROS2 Humble \[[Link](https://docs.ros.org/en/dashing/Installation/Ubuntu-Install-Binary.html)\]
-
+  
 ## Tutorial
-
 ### WSL 
 ```shell
 git clone https://github.com/chenyuting3077/SO-ARM101_MoveIt_IsaacSim.git
@@ -19,8 +18,11 @@ source install/setup.sh
 cd isaacsim
 isaac-sim.selector.bat
 ```
+* Import `[Isaac_sim_usd]/Ros2_SO101.usd`
+
 ## Reference
 
  [Whose AI](https://www.youtube.com/@whoseai3397/videos)
 
  [LycheeAI Hub - Isaac Sim & Isaac Lab Tutorials](https://lycheeai-hub.com/)
+
