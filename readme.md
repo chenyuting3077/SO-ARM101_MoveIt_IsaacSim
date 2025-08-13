@@ -16,6 +16,8 @@ source install/setup.sh
 ```
 ### Powershell
 ```shell
+cd isaacsim
+isaac-sim.bat
 ```
 ## Reference
 
