@@ -8,7 +8,7 @@
 
 ## Tutorial
 
-### Linux 
+### WSL 
 ```shell
 git clone https://github.com/chenyuting3077/SO-ARM101_MoveIt_IsaacSim.git
 colcon build
@@ -17,7 +17,7 @@ source install/setup.sh
 ### Powershell
 ```shell
 cd isaacsim
-isaac-sim.bat
+isaac-sim.selector.bat
 ```
 ## Reference
 
