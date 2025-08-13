@@ -14,11 +14,12 @@ colcon build
 source install/setup.sh
 ```
 ### Powershell
+* Open Isaac Sim
 ```shell
 cd isaacsim
 isaac-sim.selector.bat
 ```
-* Import `[Isaac_sim_usd]/Ros2_SO101.usd`
+* File->Import `[Isaac_sim_usd]/Ros2_SO101.usd`
 
 ## Reference
 
