@@ -19,7 +19,7 @@ source install/setup.sh
 cd isaacsim
 isaac-sim.selector.bat
 ```
-* File->Import `[Isaac_sim_usd]/Ros2_SO101.usd`
+* File->Open File `[Isaac_sim_usd]/Ros2_SO101.usd`
 
 ## Reference
 
