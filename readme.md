@@ -14,7 +14,10 @@ cd isaacsim
 isaac-sim.selector.bat
 ```
 * File->Open File `[Isaac_sim_usd]/Ros2_SO101.usd`
-
+* run 'keyboard_joint_selector.py'
+```shell
+python keyboard_joint_selector.py
+```
 ## Reference
 
  [Whose AI](https://www.youtube.com/@whoseai3397/videos)
