@@ -7,12 +7,6 @@
 * Linux Ubuntu 22.04. ROS2 Humble \[[Link](https://docs.ros.org/en/dashing/Installation/Ubuntu-Install-Binary.html)\]
   
 ## Tutorial
-### WSL 
-```shell
-git clone https://github.com/chenyuting3077/SO-ARM101_MoveIt_IsaacSim.git
-colcon build
-source install/setup.sh
-```
 ### Powershell
 * Open Isaac Sim
 ```shell
